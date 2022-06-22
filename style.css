@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.conteiner{
+    background-color: #E5E5E5;
+    position: relative;
+    overflow: hidden;
+    padding: 115px 0px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.img-left, .img-right{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+.img-left{
+    bottom: -35px;
+    left: -125px;
+}
+.img-right{
+    top:  -20px;
+    right: -90px;
+}
+.conteiner-content{
+    position: relative;
+    background-color: #F6F8F9;
+    box-shadow: 0px 4px 74px rgba(69, 69, 69, 0.09);
+    border-radius: 30px;
+}
+aside{
+    width: 370px;
+    margin-right: 30px;
+}
+.person{
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 389px;
+}
+.MyPhoto{
+    width: 230px;
+    height: 230px;
+    object-fit:cover;
+    position: absolute;
+    top: -35px;
+    border-radius: 50px;
+}
+.person-header{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.person-header span{
+    font-size: inherit;
+    font-weight: 700;
+}
+.person-label{
+    font-weight: 500;
+    background: #F6F8F9;
+    border-radius: 75px;
+    padding: 4px 24px;
+    margin-bottom: 0%;
+}
+.personal-cocial{
+padding-bottom: 25px;
+padding-top: 29px;
+}
+.personal-cocial a{
+    margin: 0 15px;
+}
+.about{
+    padding: 40px 50px 26px;
+}
+.about-header{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFAA01;
+    margin-bottom: 30px;
+}
+.personal-cocial-network{
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+}
+
+.about-contacts-link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+    
+}
+.about-contacts-link:last-child{
+    margin-bottom: 50px;
+}
+.about-contacts-link a{
+    font-weight: 500;
+    color: #141414;
+    text-decoration: none;
+    margin-left: 16px;
+}
+.about-contacts-link a:hover{
+    text-decoration: underline;
+}
+.about-skills-list{
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.about-skills-list-item{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.button{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFAA01;
+    box-shadow: 0px 4px 15px rgba(255, 170, 1, 0.29);
+    border-radius: 21px;
+    padding: 14px 0px;
+}
+.button:hover{
+    background:#ecb445
+}
+.buton-text{
+    color:#F5F7F8;
+    font-weight: 500;
+    padding-left: 10px;
+    font-family: "Montserrat";
+}
+
+main{
+    width: 770px;
+    background-color: white;
+}
+.profile{
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    padding: 29px 40px 30px;
+}
+.profile-header{
+    font-weight: 700;
+    font-size: 30px;
+}
+.profile-header::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #FFAA01;
+    border-radius: 47px;
+}
+.profile-text{
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 16px;
+}
+.experience{
+    padding: 45px 40px 40px;
+}
+.experience-header{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.experience-list{
+    list-style: none;
+}
+.experience-list-item{
+    margin-bottom: 40px;
+}
+.experience-subheader{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.experience-subheader span{
+    color:#FFAA01;
+    font-weight: bold;
+}
+.experience-text{
+    font-weight: 500;
+}
+.experience-text:last-child{
+    font-weight: 400;
+    margin-top: 20px;
+}
+.experience-text + p{
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 31px;
+}
+.experience-date{
+    margin-top: 20px;
+    color:#959595;
+    margin-bottom: 50px;
+}
